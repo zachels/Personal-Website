@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;600;700&display=swap');
+
+
+*{
+    max-width: 100%;
+    box-sizing: border-box; /* Prevents elements from exceeding their container */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C2C2C2;
+    color: black;
+    
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'Saira';
+    color: black;
+    text-decoration: none;
+}
+
+.play-button {
+    font-family: 'Saira';
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Make the section span the full width without increasing height */
+#headerImage {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Full width of the viewport */
+    height: 100vh; /* Adjust height (e.g., 50% of viewport height) */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    overflow: hidden; /* Prevents scrolling issues */
+}
+
+/* Ensure the image fits within the section */
+#headerImage img {
+    width: 100%; /* Stretches across the full width */
+    height: 100%; /* Fills the section height */
+}
+
+
+/* Container for text and image */
+.about-content {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    justify-content: center; /* Ensures proper spacing */
+    gap: 20px; /* Adds space between image and text */
+    width: 100%;
+    max-width: 1111px; /* Restricts max width for better layout */
+    margin: auto;
+    padding: 20px; /* Adds spacing around the section */
+}
+
+/* Styling for the image */
+.about-content img {
+    width: 50%; /* Image takes up half of the container */
+    max-width: 550px; /* Ensures the image does not get too big */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Styling for the text container */
+.text-content {
+    font-family: 'Saira';
+    font-size: 16px;
+    width: 50%; /* Ensures the text is properly aligned */
+    max-width: 537px;
+    text-align: center; /* Centers text inside */
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column; /* Stacks heading and paragraph */
+    align-items: center; /* Ensures text is centered */
+}
+
+/* Styling for the header */
+.text-content h1 {
+    font-family: 'Saira';
+    width: 100%;
+    max-width: 445px; /* Restrict width */
+    font-size: 44px; /* Adjust heading size */
+    line-height: 1.2; /* Ensures proper vertical alignment */
+    text-align: center; /* Centers the heading */
+    color: #ff4655;
+    padding: 10px 0; /* Adds spacing */
+    margin: 0 auto; /* Centers within its container */
+    display: block; /* Ensures proper block behavior */
+}
+
+
+
+
+
+/* Container for text and image */
+.agents-content {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    justify-content: center; /* Ensures the section is centered on the page */
+    gap: 20px; /* Adds space between the image and text */
+    width: 100%;
+    max-width: 1111px; /* Keeps layout structured */
+    margin: auto;
+    padding: 20px; /* Adds spacing */
+}
+
+/* Ensure the image stays on the left */
+.agents-content img {
+    width: 50%; /* Image takes up half of the container */
+    max-width: 550px; /* Ensures image does not become too large */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Text container */
+.text-content {
+    width: 50%; /* Text takes up half of the container */
+    max-width: 537px;
+    text-align: center; /* Centers all text inside */
+    font-family: 'Saira';
+    font-size: 16px;
+    line-height: 110%;
+    display: flex;
+    flex-direction: column; /* Stacks heading and paragraph */
+    align-items: center; /* Ensures both heading and text are centered */
+}
+
+/* Styling for the header */
+.text-content h2 {
+    font-family: 'Saira';
+    width: 100%; /* Ensures it fills the container */
+    max-width: 411px; /* Restricts width to maintain structure */
+    font-size: 44px;
+    line-height: 1.2; /* Improves readability */
+    text-align: center; /* Centers the heading text */
+    color: #ff4655;
+    padding: 10px 0; /* Adds spacing */
+    margin: 0 auto; /* Centers the heading inside the container */
+}
+
+
+
+/* Container for text and image */
+.modes-content {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    justify-content: center; /* Ensures proper spacing */
+    gap: 20px; /* Adds space between image and text */
+    width: 100%;
+    max-width: 1111px; /* Restricts max width for better layout */
+    margin: auto;
+    padding: 20px; /* Adds spacing around the section */
+}
+
+/* Styling for the image */
+.modes-content img {
+    width: 50%; /* Image takes up half of the container */
+    max-width: 537px; /* Ensures the image does not get too big */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Styling for the text container */
+.text-content {
+    font-family: 'Saira';
+    font-size: 16px;
+    width: 50%; /* Ensures the text is properly aligned */
+    max-width: 537px;
+    text-align: center; /* Centers text inside */
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column; /* Stacks heading and paragraph */
+    align-items: center; /* Ensures text is centered */
+}
+
+/* Styling for the header */
+.text-content h3 {
+    font-family: 'Saira';
+    width: 100%;
+    max-width: 532px; /* Restrict width */
+    font-size: 44px; /* Adjust heading size */
+    line-height: 66px; /* Ensures proper vertical alignment */
+    text-align: center; /* Centers the heading */
+    color: #ff4655;
+    padding: 10px 0; /* Adds spacing */
+    margin: 0 auto; /* Centers within its container */
+    display: block; /* Ensures proper block behavior */
+}
+
+
+
+section {
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 126px;
+    padding: 20px;
+    background: black;
+    
+}
+
+.footer-header{
+    font-family: 'Saira';
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 25px;
+}
