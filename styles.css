@@ -3,7 +3,7 @@
 
 *{
     max-width: 100%;
-    box-sizing: border-box; /* Prevents elements from exceeding their container */
+    box-sizing: border-box;
 }
 
 body {
@@ -43,166 +43,164 @@ nav ul li a {
 }
 
 
-/* Make the section span the full width without increasing height */
 #headerImage {
     margin: 0;
     padding: 0;
-    width: 100%; /* Full width of the viewport */
-    height: 100vh; /* Adjust height (e.g., 50% of viewport height) */
+    width: 100%;
+    height: 100vh;
     display: flex;
     /* justify-content: center;
     align-items: center; */
-    overflow: hidden; /* Prevents scrolling issues */
+    overflow: hidden;
 }
 
-/* Ensure the image fits within the section */
+
 #headerImage img {
-    width: 100%; /* Stretches across the full width */
-    height: 100%; /* Fills the section height */
+    width: 100%; 
+    height: 100%; 
 }
 
 
 /* Container for text and image */
 .about-content {
     display: flex;
-    align-items: center; /* Aligns items in the center vertically */
-    justify-content: center; /* Ensures proper spacing */
-    gap: 20px; /* Adds space between image and text */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
-    max-width: 1111px; /* Restricts max width for better layout */
+    max-width: 1111px;
     margin: auto;
-    padding: 20px; /* Adds spacing around the section */
+    padding: 20px; 
 }
 
-/* Styling for the image */
+
 .about-content img {
-    width: 50%; /* Image takes up half of the container */
-    max-width: 550px; /* Ensures the image does not get too big */
-    height: auto; /* Maintains aspect ratio */
+    width: 50%; 
+    max-width: 550px;
+    height: auto;
 }
 
-/* Styling for the text container */
+
 .text-content {
     font-family: 'Saira';
     font-size: 16px;
-    width: 50%; /* Ensures the text is properly aligned */
+    width: 50%;
     max-width: 537px;
-    text-align: center; /* Centers text inside */
+    text-align: center;
     line-height: 1.4;
     display: flex;
-    flex-direction: column; /* Stacks heading and paragraph */
-    align-items: center; /* Ensures text is centered */
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Styling for the header */
 .text-content h1 {
     font-family: 'Saira';
     width: 100%;
-    max-width: 445px; /* Restrict width */
-    font-size: 44px; /* Adjust heading size */
-    line-height: 1.2; /* Ensures proper vertical alignment */
-    text-align: center; /* Centers the heading */
+    max-width: 445px;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: center;
     color: #ff4655;
-    padding: 10px 0; /* Adds spacing */
-    margin: 0 auto; /* Centers within its container */
-    display: block; /* Ensures proper block behavior */
+    padding: 10px 0;
+    margin: 0 auto;
+    display: block;
 }
 
 
 
 
 
-/* Container for text and image */
+
 .agents-content {
     display: flex;
-    align-items: center; /* Aligns items in the center vertically */
-    justify-content: center; /* Ensures the section is centered on the page */
-    gap: 20px; /* Adds space between the image and text */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
-    max-width: 1111px; /* Keeps layout structured */
+    max-width: 1111px;
     margin: auto;
-    padding: 20px; /* Adds spacing */
+    padding: 20px;
 }
 
-/* Ensure the image stays on the left */
+
 .agents-content img {
-    width: 50%; /* Image takes up half of the container */
-    max-width: 550px; /* Ensures image does not become too large */
-    height: auto; /* Maintains aspect ratio */
+    width: 50%;
+    max-width: 550px;
+    height: auto;
 }
 
-/* Text container */
+
 .text-content {
-    width: 50%; /* Text takes up half of the container */
+    width: 50%;
     max-width: 537px;
-    text-align: center; /* Centers all text inside */
+    text-align: center;
     font-family: 'Saira';
     font-size: 16px;
     line-height: 110%;
     display: flex;
-    flex-direction: column; /* Stacks heading and paragraph */
-    align-items: center; /* Ensures both heading and text are centered */
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Styling for the header */
+
 .text-content h2 {
     font-family: 'Saira';
-    width: 100%; /* Ensures it fills the container */
-    max-width: 411px; /* Restricts width to maintain structure */
+    width: 100%;
+    max-width: 411px;
     font-size: 44px;
-    line-height: 1.2; /* Improves readability */
-    text-align: center; /* Centers the heading text */
+    line-height: 1.2;
+    text-align: center;
     color: #ff4655;
-    padding: 10px 0; /* Adds spacing */
-    margin: 0 auto; /* Centers the heading inside the container */
+    padding: 10px 0;
+    margin: 0 auto;
 }
 
 
 
-/* Container for text and image */
 .modes-content {
     display: flex;
-    align-items: center; /* Aligns items in the center vertically */
-    justify-content: center; /* Ensures proper spacing */
-    gap: 20px; /* Adds space between image and text */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
-    max-width: 1111px; /* Restricts max width for better layout */
+    max-width: 1111px;
     margin: auto;
-    padding: 20px; /* Adds spacing around the section */
+    padding: 20px;
 }
 
-/* Styling for the image */
+
 .modes-content img {
-    width: 50%; /* Image takes up half of the container */
-    max-width: 537px; /* Ensures the image does not get too big */
-    height: auto; /* Maintains aspect ratio */
+    width: 50%;
+    max-width: 537px;
+    height: auto;
 }
 
-/* Styling for the text container */
+
 .text-content {
     font-family: 'Saira';
     font-size: 16px;
-    width: 50%; /* Ensures the text is properly aligned */
+    width: 50%;
     max-width: 537px;
-    text-align: center; /* Centers text inside */
+    text-align: center;
     line-height: 1.4;
     display: flex;
-    flex-direction: column; /* Stacks heading and paragraph */
-    align-items: center; /* Ensures text is centered */
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Styling for the header */
+
 .text-content h3 {
     font-family: 'Saira';
     width: 100%;
-    max-width: 532px; /* Restrict width */
-    font-size: 44px; /* Adjust heading size */
-    line-height: 66px; /* Ensures proper vertical alignment */
-    text-align: center; /* Centers the heading */
+    max-width: 532px;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: center;
     color: #ff4655;
-    padding: 10px 0; /* Adds spacing */
-    margin: 0 auto; /* Centers within its container */
-    display: block; /* Ensures proper block behavior */
+    padding: 10px 0;
+    margin: 0 auto;
+    display: block;
 }
 
 
